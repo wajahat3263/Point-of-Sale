@@ -1,0 +1,256 @@
+.table > thead > tr > th {
+     vertical-align: middle;
+}
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+.table.table-custom {
+    border-collapse: separate !important;
+}
+
+.table.table-custom.spacing5 {
+    border-spacing: 0 5px !important
+}
+
+.table.table-custom.spacing8 {
+    border-spacing: 0 8px !important
+}
+
+.table.table-custom thead th {
+    background: #edebfc;
+    border-top: 0;
+    border-bottom: 0
+}
+
+.table.table-custom tfoot th {
+    border-bottom: 0
+}
+
+.table.table-custom tr td {
+    border-top: 1px solid #edebfc;
+    border-bottom: 1px solid #edebfc;
+}
+
+
+.table.table-custom tr td img {
+    border: 1px solid #edebfc;
+    border-radius: 5px;
+}
+
+
+.table.table-custom td:last-child,
+.table.table-custom th:last-child {
+    border-radius: 0 .5rem .5rem 0;
+    border-right: 1px solid #edebfc;
+}
+
+.table.table-custom td:first-child,
+.table.table-custom th:first-child {
+    border-radius: .5rem 0 0 .5rem;
+    border-left: 1px solid #edebfc;
+}
+
+.table.table-custom tbody tr {
+    background: #fafafa;
+    border-radius: .5rem;
+}
+
+.table.table-custom tbody tr:hover {
+    background-color: rgba(233, 231, 252, 0.05);
+    transform: scale(1.005);
+    color: #2678fc;
+}
+
+
+
+/*Custom Table2 */
+
+.table.table-custom2 {
+    border-collapse: separate !important;
+    margin-bottom: 10px !important;
+}
+
+.table.table-custom2.spacing5 {
+    border-spacing: 0 5px !important
+}
+
+.table.table-custom2.spacing8 {
+    border-spacing: 0 8px !important
+}
+
+.table.table-custom2 thead th {
+    background: #edebfc;
+    border-top: 0;
+    border-bottom: 0
+}
+
+.table.table-custom2 tfoot th {
+    border-bottom: 0
+}
+
+.table.table-custom2 tr td {
+    border-top: 1px solid #edebfc;
+    border-bottom: 1px solid #edebfc;
+}
+
+
+.table.table-custom2 tr td img {
+    border: 1px solid #edebfc;
+    border-radius: 5px;
+}
+
+
+.table.table-custom2 td:last-child,
+.table.table-custom2 th:last-child {
+    border-radius: 0 .5rem .5rem 0;
+    border-right: 1px solid #edebfc;
+}
+
+.table.table-custom2 td:first-child,
+.table.table-custom2 th:first-child {
+    border-radius: .5rem 0 0 .5rem;
+    border-left: 1px solid #edebfc;
+}
+
+.table.table-custom2 tbody tr {
+    background: #fafafa;
+    border-radius: .5rem;
+}
+
+.table.table-custom2 > tbody > tr > td {
+    padding: 6px 4px !important;
+}
+
+/*.table.table-custom2 tbody tr:hover {
+    background-color: rgba(233, 231, 252, 0.05);
+    transform: scale(1.01);
+    box-shadow: 0px 0px 10px #e9e7fc;
+}*/
+
+
+/*end table custom 2*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .dataTables_wrapper .dataTables_paginate {
+    margin-top: -30px;
+}
+
+
+div.dt-button-collection{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    margin-top: 3px;
+    padding: 8px 8px 4px 8px;
+    border: 1px solid #d2d6de;
+    background-color: white;
+    overflow: hidden;
+    z-index: 2002;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+button.dt-button,
+    div.dt-button,
+    a.dt-button {
+        position: relative;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #f6f6f6;
+        display: block;
+        float: none;
+        margin-bottom: 4px;
+        margin-right: 0;
+
+        
+    }
+
+div.dt-button-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 2001;
+}
+
+
+
+ .dataTables_wrapper .dataTables_paginate .ul.pagination {
+    color: #999999 !important;
+    background-color: #f6f6f6 !important;
+    border-color: #d4d4d4 !important;
+    border-radius: 5px;
+    margin: 5px 3px;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #7460ee;
+    background-color: #fff;
+    border: 1px solid #7460ee;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.page-link:hover {
+    color: #fff;
+    background-color: #2678fc;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    width: auto;
+    display: inline-block;
+    color: #2678fc;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
+    padding-top: 2px;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #5294ff;
+    border-color: #2678fc;
+    padding: 0.5rem 1.4rem;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(116, 96, 238, 0.05);
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+    border-radius: 4px;
+    height: 30px;
+}
+
+@media screen and (min-width: 992px) {
+    .dataTables_wrapper {
+        overflow: hidden;
+    }
+
+}
+
+
